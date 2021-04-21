@@ -1,5 +1,10 @@
 {
   "name": "tooltip-with-cdk",
+  "description": "A tooltip component implemented in angular using @angular/cdk library",
+  "author": {
+    "name": "yb1997",
+    "email": "ybear422@gmail.com"
+  },
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
