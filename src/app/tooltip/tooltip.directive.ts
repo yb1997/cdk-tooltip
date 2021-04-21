@@ -103,6 +103,8 @@ export class TooltipDirective {
 
   @HostListener('mouseenter')
   onMouseEnter() {
+    if (!this.text) return;
+
     this.createPortalOutlet();
     this.show();
   }
